@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tree house Custom Video Player Project by Olubukola Ogunsola </title>
+<link rel="stylesheet" type="text/css" href="normalize.css">
+<link rel="stylesheet" type="text/css" href="video.css">
+
+
+</head>
+<body>
+<a href="https://ogunsola.github.io"  id="home">PORFOLIO HOME</a> 
+<div id="wrapper">
+  <div id="videoPlayer">
+    <video   id="my_video" >
+      <source src="videos/video.mp4" type="video/mp4" >
+      <source src="videos/video.ogg" type="video/ogg" >
+
+    </video>
+
+    <div id="seeker_bar" >
+        <input id="seekslider" class="sliders" type="range" min="0" max="100" value="0" step="1" >
+        </div>
+      <div id="control">
+        <button id="playpausebtn"></button>
+        <button id="stepbackward"><img src="stepbackward.png"></button>
+        <button id="stepForward"><img src="stepforward.png"></button>
+       <select id="speed">
+       	<option value="1">Change Speed</option>
+       	<option value="0.5">Speed 0.5</option>
+       	<option value="1">Normal Speed</option>
+       	<option value="1.5"> Speed 1.5</option>
+       	<option value="2"> Speed 2</option>
+       </select>
+        <span id="presentTime">00:00</span>   /   <span id="videoLength">00:00</span>
+        <button id="mute" ></button>
+        <input id="volume"  class="sliders" type="range" min="0" max="100" value="50" step="1" >
+        <button id="fullscreen" ></button>
+      </div>
+
+
+    </div>
+
+    <div id="transcript" >
+		<p>
+<span id="talk1" class="talks">Now that we've looked at the architecture
+	of the internet, let's see how you might </span>
+
+<span id="talk2">connect your personal devices to
+	the internet inside your house.</span>
+</p>
+
+<p>
+<span id="talk3" data-start="0">
+Well there are many ways to
+connect to the internet, and
+	</span>
+
+<span id="talk4">
+	most often people connect wirelessly.</span>
+
+<span id="talk5">
+Let's look at an example of how
+	you can connect to the internet.</span>
+</p>
+
+<p>
+<span id="talk6">
+If you live in a city or a town,
+	you probably have a coaxial cable for</span>
+
+<span id="talk7">
+cable Internet, or a phone line if you
+	have DSL, running to the outside of</span>
+
+<span id="talk8">
+your house, that connects you to
+	the Internet Service Provider, or ISP.</span>
+
+<span id="talk9">
+If you live far out in the country,
+	you'll more likely have</span>
+
+<span id="talk10">
+a dish outside your house, connecting
+	you wirelessly to your closest ISP, or</span>
+
+<span id="talk11">
+	you might also use the telephone system.</span>
+</p>
+
+<p>
+<span id="talk12">
+Whether a wire comes straight from
+	the ISP hookup outside your house, or</span>
+
+
+<span id="talk13">
+it travels over radio
+	waves from your roof,</span>
+
+
+<span id="talk14">
+the first stop a wire will make once
+	inside your house, is at your modem.</span>
+
+
+<span id="talk15">
+A modem is what connects the internet
+	to your network at home.</span>
+
+<span id="talk16">
+	A few common residential modems are DSL or</span>
+</p>
+</div>
+
+</div>
+
+<script type="text/javascript" src="video.js"></script>
+
+
+</body>
+</html>
